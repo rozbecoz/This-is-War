@@ -15,8 +15,8 @@ For example:
     //likely use Map.
 
 
-    function maps(array) {
-        return array.map(element => element *=2);
+    function maps(array1) {
+        return array1.map(element => element *=2);
     }
 //mapped array and then multiplied elements by 2 and return new array
 
@@ -26,12 +26,12 @@ console.log(maps([2,9,15]),[4,18,30]);
 
 //now to account for the edge cases
 
-function maps2(array) {
-    if(array.length === 0) {
+function maps2(array1) {
+    if(array1.length === 0) {
         console.log('Please enter an array of integers');
     } 
     else { 
-        return array.map(element => element *=2);
+        return array1.map(element => element *=2);
     }
 }
 
